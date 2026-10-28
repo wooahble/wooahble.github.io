@@ -5,8 +5,8 @@
 /* 공구 소식 — 인포크링크(link.inpock.co.kr/wooahble)의 "Coming up Next" 일정. brand=브랜드명(배너 제목 "지홈(우아블) X 브랜드 공동구매"), title=상품명, start/end 는 한국시간 "YYYY-MM-DDTHH:MM", img=배너 사진(없으면 ""), link=노션 알림신청(지홈) 공개 페이지 주소, 끝난 공구는 자동으로 숨겨짐 */
 window.GONGGU = [
  {"brand": "프렘", "title": "무쇠 플레이트", "start": "2026-11-18T10:00", "end": "2026-11-21T23:59", "img": "img/gb-prem.webp", "link": "https://serious-marmot-6b9.notion.site/42b9d09c3ca082e5970e01792f22a1a4"},
- {"brand": "VBC까사", "title": "인칸토", "start": "2026-11-23T10:00", "end": "2026-11-27T23:59", "img": "img/gb-vbc.webp", "link": "https://serious-marmot-6b9.notion.site/1699d09c3ca083138fc6010e93724a43"},
- {"brand": "드부이에", "title": "초크팬", "start": "2026-12-02T10:00", "end": "2026-12-06T23:59", "img": "img/gb-debuyer.webp", "link": "https://serious-marmot-6b9.notion.site/d399d09c3ca083b3b0c881d072706a8c"}
+ {"brand": "VBC까사", "title": "인칸토", "start": "2026-11-23T10:00", "end": "2026-11-27T23:59", "img": "img/gb-vbc-2.webp", "link": "https://serious-marmot-6b9.notion.site/1699d09c3ca083138fc6010e93724a43"},
+ {"brand": "드부이에", "title": "초크팬", "start": "2026-12-02T10:00", "end": "2026-12-06T23:59", "img": "img/gb-debuyer-2.webp", "link": "https://serious-marmot-6b9.notion.site/d399d09c3ca083b3b0c881d072706a8c"}
 ];
 /* 이벤트 배너 — type: code(할인코드) / product(우아블 상품) / video(유튜브). 공구(GONGGU)는 이 배너들 앞에 자동으로 붙음 */
 window.EVENTS = [

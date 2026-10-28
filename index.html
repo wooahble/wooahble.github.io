@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-title" content="지홈 레시피북">
 <meta name="theme-color" content="#FBFAF7">
 <meta name="description" content="지홈(우아블)의 테이블 위 레시피 모음 · 공구 소식">
 <meta property="og:type" content="website">
@@ -378,7 +379,24 @@ body.locked{overflow:hidden}
 <div class="page" id="page" tabindex="-1" hidden role="dialog" aria-modal="true" aria-labelledby="r-title"></div>
 <div class="toast" id="toast" role="status" hidden></div>
 
-<script src="recipes.js"></script>
+<script>document.write('<script src="recipes.js?t='+Date.now()+'"><\/script>')</script>
+<script>
+/* 홈 화면 앱으로 열어둔 경우: 다시 볼 때마다 새 내용이 있는지 확인해서 자동 새로고침 */
+(function(){
+  function sig(w){try{return JSON.stringify([w.BOOK,w.GONGGU,w.EVENTS,(w.RECIPES||[]).map(function(r){return r.id+'|'+r.img+'|'+r.title})])}catch(e){return ''}}
+  var busy=false;
+  function check(){
+    if(busy||document.visibilityState!=='visible')return;busy=true;
+    fetch('recipes.js?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.text():''}).then(function(t){
+      if(!t)return;var w={};try{new Function('window',t)(w)}catch(e){return}
+      if(sig(w)&&sig(w)!==sig(window))location.reload();
+    }).catch(function(){}).then(function(){busy=false});
+  }
+  document.addEventListener('visibilitychange',check);
+  addEventListener('pageshow',function(e){if(e.persisted)check()});
+  addEventListener('focus',check);
+})();
+</script>
 <script>
 (function(){
 const SHOP='https://wooahble.com/?utm_source=recipebook&utm_medium=web&utm_campaign=recipebook';
