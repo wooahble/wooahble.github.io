@@ -2575,7 +2575,7 @@ window.RECIPES = [
   "cat": "main",
   "title": "전복버터구이",
   "img": "img/ig-main-30.webp",
-  "ig": "https://www.instagram.com/p/DYcDKXjFNt3/",
+  "ig": "https://www.youtube.com/shorts/PqrVZguRTVk",
   "added": "2026-05-17",
   "serves": "",
   "ingredients": [
@@ -2597,7 +2597,7 @@ window.RECIPES = [
   "cat": "main",
   "title": "새송이떡갈비",
   "img": "img/ig-main-31.webp",
-  "ig": "https://www.instagram.com/p/DYcDKXjFNt3/",
+  "ig": "https://www.youtube.com/shorts/omCDZbaeYXg",
   "added": "2026-05-17",
   "serves": "",
   "ingredients": [
