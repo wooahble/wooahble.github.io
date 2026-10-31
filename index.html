@@ -506,8 +506,8 @@ const HERO=[
  {img:'img/hero-4.webp',id:'main-02',tags:['오븐 25분'],h:'종이호일로 끝내는\n연어 파피요트',p:'좋아하는 해산물과 채소를 담아 오븐에'},
  {img:'img/hero-5.webp',id:'appetizer-02',tags:['칼질 없이'],h:'회 뜬 광어로 근사하게\n광어 세비체',p:'소스만 뿌리면 끝나는 에피타이저'}
 ].filter(h=>byId[h.id]);
-/* BEST = 인스타 인사이트(조회수·좋아요·저장·공유) 백분위 평균 점수 상위 8개 (2026-10-31 집계, 여러 요리가 한 게시물에 묶인 것·세팅팁 제외) */
-const BEST=['appetizer-03','main-06','salad-07','main-21','meal-06','salad-15','appetizer-29','salad-09'].map(id=>byId[id]).filter(Boolean);
+/* BEST = 인스타 인사이트(조회수·좋아요·저장·공유) 백분위 평균 점수 상위 8개 (2026-10-31 집계) + 현지님 선택(새송이떡갈비·가리비플래터·육회김밥) */
+const BEST=['appetizer-03','main-31','salad-07','appetizer-04','meal-06','salad-15','appetizer-06','salad-09'].map(id=>byId[id]).filter(Boolean);
 
 function homeView(){
   const hero=`<section class="hero" aria-label="추천 레시피"><div class="rail" id="hero">${HERO.map((h,i)=>`<a href="#r-${h.id}"><img src="${h.img}" alt="${esc(byId[h.id].title)}" ${i?'loading="lazy"':'fetchpriority="high"'}><span class="shade"></span><span class="cap"><span class="tagrow">${h.tags.map((t,j)=>`<span class="tag${j===0?' red':''}">${esc(t)}</span>`).join('')}</span><h2>${esc(h.h)}</h2><p>${esc(h.p)}</p></span></a>`).join('')}</div><span class="count" data-count="hero">1 / ${HERO.length}</span></section>`;
