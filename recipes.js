@@ -15,7 +15,7 @@ window.EVENTS = [
  {"type": "video", "kicker": "우아블 유튜브 최신 영상", "title": "무조건 칭찬받는 홈파티 레시피 10가지", "img": "img/ev-video-oOoec7Yl228.webp", "link": "https://www.youtube.com/watch?v=oOoec7Yl228"},
  {"type": "product", "kicker": "우아블 자체제작", "title": "Gift Tissue", "sub": "식탁 위에 두는 기프트티슈", "img": "img/ev-tissue.webp", "link": "https://wooahble.com/shop_view/?idx=72"}
 ];
-window.BOOK = {"updated": "2026-10-31"};
+window.BOOK = {"updated": "2026-11-01"};
 window.RECIPES = [
  {
   "id": "tips-01",
@@ -294,6 +294,34 @@ window.RECIPES = [
     "t": "말아주기"
    }
   ]
+ },
+ {
+  "id": "tips-09",
+  "cat": "tips",
+  "title": "배 예쁘게 깎는 법",
+  "img": "img/ig-tips-09.webp",
+  "ig": "https://www.instagram.com/reel/Ddn8UZssLlc/",
+  "added": "2026-11-01",
+  "kind": "guide",
+  "lead": [
+   "감이나 배 같은 갈변없는 과일은 이렇게 깎아보시면 조금의 정성으로 큰 대접 받았다 느끼실꺼에요!"
+  ],
+  "points": [],
+  "items": []
+ },
+ {
+  "id": "tips-10",
+  "cat": "tips",
+  "title": "파스타 예쁘게 담는 법",
+  "img": "img/ig-tips-10.webp",
+  "ig": "https://www.instagram.com/reel/DcOKB9vRyjY/",
+  "added": "2026-11-01",
+  "kind": "guide",
+  "lead": [
+   "프라이팬에서 그릇으로 그냥 막 담으면 왜 이상할까 싶었는데, 2가지 방식만 익혀두니 어떤 파스타도 예쁘게 담기 가능하더라고요"
+  ],
+  "points": [],
+  "items": []
  },
  {
   "id": "appetizer-01",
@@ -1153,6 +1181,125 @@ window.RECIPES = [
    "참기름 마사지 후에 잘라주면 완성 📝"
   ],
   "tip": []
+ },
+ {
+  "id": "appetizer-34",
+  "cat": "appetizer",
+  "title": "무화과 카르파쵸",
+  "img": "img/ig-appetizer-34.webp",
+  "ig": "https://www.instagram.com/reel/DcqKRR-B3zZ/",
+  "added": "2026-11-01",
+  "serves": "",
+  "ingredients": [
+   "무화과",
+   "루꼴라",
+   "그릭요거트",
+   "프로슈토",
+   "올리브유",
+   "꿀",
+   "피스타치오",
+   "빵이나 크래커"
+  ],
+  "steps": [
+   "껍질 까 두툼히 슬라이스해 컵 밑으로 꾹꾹 눌러 펴주세요",
+   "루꼴라, 그릭요거트, 프로슈토, 올리브유, 꿀, 피스타치오 올려주세요",
+   "빵이나 크래커 위에 듬뿍 올려 먹으면 끝"
+  ],
+  "tip": [
+   "손님 오셨을 때 내오면 멋진 손님초대요리가 돼요"
+  ]
+ },
+ {
+  "id": "appetizer-35",
+  "cat": "appetizer",
+  "title": "무화과 프로슈토",
+  "img": "img/ig-appetizer-35.webp",
+  "ig": "https://www.instagram.com/reel/DcqKRR-B3zZ/",
+  "added": "2026-11-01",
+  "serves": "",
+  "ingredients": [
+   "무화과",
+   "프로슈토",
+   "루꼴라",
+   "그릭요거트",
+   "꿀 한스푼",
+   "다진 피스타치오",
+   "올리브오일",
+   "발사믹글레이즈"
+  ],
+  "steps": [
+   "무화과 1/4등분해 잘라주세요",
+   "그릭요거트에 꿀 한스푼 넣고 섞어주세요",
+   "프로슈토 바닥에 깔고 무화과, 루꼴라, 요거트 넣고 말아주세요",
+   "그 위로 다진 피스타치오, 올리브오일, 꿀, 발사믹글레이즈 뿌려주면 끝"
+  ],
+  "tip": []
+ },
+ {
+  "id": "appetizer-36",
+  "cat": "appetizer",
+  "title": "무화과 초코바게트",
+  "img": "img/ig-appetizer-36.webp",
+  "ig": "https://www.instagram.com/reel/DcqKRR-B3zZ/",
+  "added": "2026-11-01",
+  "serves": "",
+  "ingredients": [
+   "바게트",
+   "버터",
+   "그릭요거트",
+   "무화과 또는 딸기잼",
+   "루꼴라",
+   "무화과"
+  ],
+  "steps": [
+   "그릭요거트에 무화과 또는 딸기잼 넣고 섞어주세요",
+   "구운 바게트 위로 버터, 요거트, 루꼴라, 무화과 올려주면 끝"
+  ],
+  "tip": []
+ },
+ {
+  "id": "salad-26",
+  "cat": "salad",
+  "title": "무화과 부라타 샐러드",
+  "img": "img/ig-salad-26.webp",
+  "ig": "https://www.instagram.com/reel/DdToDucTSCj/",
+  "added": "2026-11-01",
+  "serves": "",
+  "ingredients": [
+   "무화과",
+   "부라타치즈"
+  ],
+  "steps": [],
+  "tip": [
+   "무화과+부라타=❣️ 맛과 비쥬얼 다 잡았어요. 무화과 철이 끝나기 전에 꼭 한번 해보세요"
+  ]
+ },
+ {
+  "id": "salad-27",
+  "cat": "salad",
+  "title": "배 카르파쵸",
+  "img": "img/ig-salad-27.webp",
+  "ig": "https://www.instagram.com/reel/Dd5-wqrJ16I/",
+  "added": "2026-11-01",
+  "serves": "",
+  "ingredients": [
+   "배(또는 좋아하는 과일)",
+   "루꼴라",
+   "프로슈토",
+   "견과류",
+   "## 드레싱",
+   "화이트발사믹",
+   "레몬즙",
+   "올리브유 듬뿍"
+  ],
+  "steps": [
+   "좋아하는 과일을 얇게 슬라이스해주세요",
+   "루꼴라+과일+프로슈토+견과류 순으로 올려주세요",
+   "화이트발사믹+레몬즙+올리브유 듬뿍 뿌려주면 끝"
+  ],
+  "tip": [
+   "짭쪼름한 프로슈토와 쌉싸름한 올리브유의 조화가 아주 맛있어요"
+  ]
  },
  {
   "id": "salad-01",
@@ -2710,6 +2857,58 @@ window.RECIPES = [
   "tip": []
  },
  {
+  "id": "main-34",
+  "cat": "main",
+  "title": "들기름김치찜",
+  "img": "img/ig-main-34.webp",
+  "ig": "https://www.instagram.com/reel/Dcz6ewKTT6f/",
+  "added": "2026-11-01",
+  "serves": "2인분",
+  "ingredients": [
+   "묵은지(또는 신김치) 1/4포기(작은경우에 반포기)",
+   "돼지고기 2인분",
+   "## 양념",
+   "쌀뜬물 1컵(180ml)",
+   "매실엑 1/3컵(60ml)",
+   "들기름 반컵(90ml)",
+   "참치액 1큰술"
+  ],
+  "steps": [
+   "큰 냄비에 묵은지와 양념 넣어주세요",
+   "뚜껑닫고 약불에 40분 푹 찌면 끝"
+  ],
+  "tip": []
+ },
+ {
+  "id": "main-35",
+  "cat": "main",
+  "title": "문어 뽈뽀",
+  "img": "img/ig-main-35.webp",
+  "ig": "https://www.instagram.com/reel/DcI9Lu8h9ZZ/",
+  "added": "2026-11-01",
+  "serves": "",
+  "ingredients": [
+   "문어 반마리",
+   "감자 3개",
+   "마늘 6-7개",
+   "올리브 10알",
+   "케이퍼 1큰술",
+   "버터 10g",
+   "훈제파프리카가루 한큰술",
+   "파슬리 조금"
+  ],
+  "steps": [
+   "감자 먹기좋게 잘라 물 조금 넣고 전자렌지 10분 돌려 익혀주세요",
+   "올리브유 두른 팬에 중불로 감자, 마늘, 소금 한꼬집 넣고 노릇하게 익혀주세요",
+   "올리브, 케이퍼 넣고 1분정도 볶아 모두 그릇에 빼놔주세요",
+   "팬에 올리브유, 버터 넣고 중강불로 문어 노릇하게 구워주세요(2-3분)",
+   "감자 위로 문어 올리고 파프리카파우더, 파슬리 뿌려주면 끝"
+  ],
+  "tip": [
+   "기호에 따라 레몬즙 추가"
+  ]
+ },
+ {
   "id": "meal-01",
   "cat": "meal",
   "title": "육회파스타",
@@ -3801,6 +4000,98 @@ window.RECIPES = [
   "tip": []
  },
  {
+  "id": "meal-41",
+  "cat": "meal",
+  "title": "집코바덮밥",
+  "img": "img/ig-meal-41.webp",
+  "ig": "https://www.instagram.com/reel/DZcIQDcphMV/",
+  "added": "2026-11-01",
+  "serves": "",
+  "ingredients": [
+   "닭다리살 350g",
+   "대파 반대",
+   "마늘 5-6개",
+   "## 양념",
+   "간장 1.5큰술",
+   "설탕 1큰술",
+   "고춧가루 1.5큰술",
+   "굴소스 0.5큰술",
+   "맛술 1큰술",
+   "물엿 3큰술",
+   "케찹 0.5큰술",
+   "고추장 0.5큰술",
+   "다진마늘 0.5큰술"
+  ],
+  "steps": [
+   "후라이팬에 껍질부터 구워주세요",
+   "뒷면이 노릇하게 익으면 대파, 마늘을 넣고 구워주세요",
+   "먹기좋게 잘라 양념 부어 졸여주세요",
+   "밥 위에 올려주시고 노른자, 깨로 마무리하면 끝!"
+  ],
+  "tip": []
+ },
+ {
+  "id": "meal-42",
+  "cat": "meal",
+  "title": "된장항정덮밥",
+  "img": "img/ig-meal-42.webp",
+  "ig": "https://www.instagram.com/reel/DaUvKD8BmA5/",
+  "added": "2026-11-01",
+  "serves": "2인분",
+  "ingredients": [
+   "항정살 300g",
+   "양파 반개",
+   "대파 1/4대",
+   "와사비",
+   "노른자",
+   "## 양념",
+   "된장 반큰술",
+   "간장 3큰술",
+   "맛술 2큰술",
+   "설탕 1큰술",
+   "올리고당 2큰술",
+   "참기름 1큰술",
+   "다진마늘 1큰술",
+   "물 2큰술",
+   "후추 취향껏"
+  ],
+  "steps": [
+   "중불에 항정살을 팬에 노릇하게 구워주세요",
+   "약불에 양념과 채썰어놓은 양파를 넣고 졸여주세요",
+   "한번 졸고나면 물 50ml 넣고 다시 졸여주세요",
+   "밥 위에 양파, 고기, 채썬 파, 와사비, 노른자, 통깨 올려주면 끝"
+  ],
+  "tip": []
+ },
+ {
+  "id": "meal-43",
+  "cat": "meal",
+  "title": "들기름 막국수",
+  "img": "img/ig-meal-43.webp",
+  "ig": "https://www.instagram.com/reel/Dclb0kvNS3f/",
+  "added": "2026-11-01",
+  "serves": "1인분",
+  "ingredients": [
+   "메밀면 1인분",
+   "오이 반개",
+   "우삼겹 100g(선택)",
+   "## 소스",
+   "간장 2큰술",
+   "쯔유 1큰술",
+   "알룰로스 0.5큰술",
+   "화이트발사믹 1큰술",
+   "간 깨 1큰술",
+   "들기름 3큰술"
+  ],
+  "steps": [
+   "오이를 슬라이스해 소금 1꼬집 넣고 버무려 10분간 절여 물기 빼주세요",
+   "간장 2큰술, 쯔유 1큰술, 알룰로스 0.5큰술, 화이트발사믹 1큰술, 간 깨 1큰술, 들기름 3큰술 넣어 소스 만들어주세요",
+   "우삼겹에 소스 한큰술 넣고 바싹 익혀주세요",
+   "삶아 찬물에 헹군 메밀면 위로 우삼겹, 오이, 소스, 깨 올려주면 끝"
+  ],
+  "tip": []
+ },
+ {
   "id": "dessert-01",
   "cat": "dessert",
   "title": "레몬포셋",
@@ -3970,6 +4261,22 @@ window.RECIPES = [
   ],
   "tip": [
    "빵은 물론 그릴드치킨, 오일파스타, 모닝빵에 한 조각 올려도 풍미가 확 살아요"
+  ]
+ },
+ {
+  "id": "dessert-08",
+  "cat": "dessert",
+  "title": "블루베리치즈토스트",
+  "img": "img/ig-dessert-08.webp",
+  "ig": "https://www.instagram.com/reel/DeosZTovNWT/",
+  "added": "2026-11-01",
+  "serves": "",
+  "ingredients": [
+   "블루베리 콩포트(번거로우면 잼으로 대체)"
+  ],
+  "steps": [],
+  "tip": [
+   "요즘 릴스에 자꾸 뜨는 블루베리치즈토스트, 유행하는 건 이유가 있네요"
   ]
  }
 ];
