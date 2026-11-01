@@ -434,7 +434,7 @@ function store(k,v){try{if(v===undefined)return JSON.parse(localStorage.getItem(
 let saved=new Set(store('zh-saved')||[]);
 let big=!!store('zh-big');
 document.querySelectorAll('.shop').forEach(a=>a.href=SHOP);
-const isNew=r=>{if(!r.added)return false;const t=Date.parse(r.added);return !isNaN(t)&&(Date.now()-t)<30*864e5};
+const isNew=r=>{if(!r.posted)return false;const t=Date.parse(r.posted+'T00:00:00+09:00');return !isNaN(t)&&(Date.now()-t)<7*864e5};
 const isGuide=r=>r.kind==='guide';
 const ingCount=r=>(r.ingredients||[]).filter(x=>!String(x).startsWith('##')).length;
 const heartSVG='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>';

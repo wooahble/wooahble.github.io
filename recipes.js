@@ -1,7 +1,7 @@
 /* 지홈 레시피북 데이터 — 새 레시피는 이 배열에 추가합니다.
    ingredients: 문자열 배열. "## 소스"처럼 ##로 시작하면 재료 묶음 제목.
    steps: 문자열 배열(👉 뒤는 작은 팁으로 표시). tip: 문자열 배열.
-   added: 추가한 날짜(YYYY-MM-DD) — 30일 동안 NEW 표시. img: 없으면 "" */
+   added: 추가한 날짜(YYYY-MM-DD). posted: 인스타에 올라온 날짜(YYYY-MM-DD) — 올라온 지 7일 동안 "새로 올라온 레시피"·NEW 표시. img: 없으면 "" */
 /* 공구 소식 — 인포크링크(link.inpock.co.kr/wooahble)의 "Coming up Next" 일정. brand=브랜드명(배너 제목 "지홈(우아블) X 브랜드 공동구매"), title=상품명, start/end 는 한국시간 "YYYY-MM-DDTHH:MM", img=배너 사진(없으면 ""), link=노션 알림신청(지홈) 공개 페이지 주소, 끝난 공구는 자동으로 숨겨짐 */
 window.GONGGU = [
  {"brand": "프렘", "title": "무쇠 플레이트", "start": "2026-11-18T10:00", "end": "2026-11-21T23:59", "img": "img/gb-prem.webp", "link": "https://serious-marmot-6b9.notion.site/42b9d09c3ca082e5970e01792f22a1a4"},
@@ -1130,6 +1130,7 @@ window.RECIPES = [
   "img": "img/ig-appetizer-33.webp",
   "ig": "https://www.instagram.com/reel/DfFJ3ZdTTAc/",
   "added": "2026-10-31",
+  "posted": "2026-10-29",
   "serves": "2줄",
   "ingredients": [
    "밥 2공기(400g)",
@@ -1161,6 +1162,7 @@ window.RECIPES = [
   "img": "img/ig-appetizer-34.webp",
   "ig": "https://www.instagram.com/reel/DcqKRR-B3zZ/",
   "added": "2026-11-01",
+  "posted": "2026-08-30",
   "serves": "",
   "ingredients": [
    "무화과",
@@ -1188,6 +1190,7 @@ window.RECIPES = [
   "img": "img/ig-appetizer-35.webp",
   "ig": "https://www.instagram.com/reel/DcqKRR-B3zZ/",
   "added": "2026-11-01",
+  "posted": "2026-08-30",
   "serves": "",
   "ingredients": [
    "무화과",
@@ -1214,6 +1217,7 @@ window.RECIPES = [
   "img": "img/ig-appetizer-36.webp",
   "ig": "https://www.instagram.com/reel/DcqKRR-B3zZ/",
   "added": "2026-11-01",
+  "posted": "2026-08-30",
   "serves": "",
   "ingredients": [
    "바게트",
@@ -1236,6 +1240,7 @@ window.RECIPES = [
   "img": "img/ig-salad-27.webp",
   "ig": "https://www.instagram.com/reel/Dd5-wqrJ16I/",
   "added": "2026-11-01",
+  "posted": "2026-09-30",
   "serves": "",
   "ingredients": [
    "배(또는 좋아하는 과일)",
@@ -2818,6 +2823,7 @@ window.RECIPES = [
   "img": "img/ig-main-34.webp",
   "ig": "https://www.instagram.com/reel/Dcz6ewKTT6f/",
   "added": "2026-11-01",
+  "posted": "2026-09-02",
   "serves": "2인분",
   "ingredients": [
    "묵은지(또는 신김치) 1/4포기(작은경우에 반포기)",
@@ -2841,6 +2847,7 @@ window.RECIPES = [
   "img": "img/ig-main-35.webp",
   "ig": "https://www.instagram.com/reel/DcI9Lu8h9ZZ/",
   "added": "2026-11-01",
+  "posted": "2026-08-17",
   "serves": "",
   "ingredients": [
    "문어 반마리",
@@ -3961,6 +3968,7 @@ window.RECIPES = [
   "img": "img/ig-meal-41.webp",
   "ig": "https://www.instagram.com/reel/DZcIQDcphMV/",
   "added": "2026-11-01",
+  "posted": "2026-06-11",
   "serves": "",
   "ingredients": [
    "닭다리살 350g",
@@ -3992,6 +4000,7 @@ window.RECIPES = [
   "img": "img/ig-meal-42.webp",
   "ig": "https://www.instagram.com/reel/DaUvKD8BmA5/",
   "added": "2026-11-01",
+  "posted": "2026-07-03",
   "serves": "2인분",
   "ingredients": [
    "항정살 300g",
@@ -4025,6 +4034,7 @@ window.RECIPES = [
   "img": "img/ig-meal-43.webp",
   "ig": "https://www.instagram.com/reel/Dclb0kvNS3f/",
   "added": "2026-11-01",
+  "posted": "2026-08-28",
   "serves": "1인분",
   "ingredients": [
    "메밀면 1인분",
