@@ -347,6 +347,13 @@ body.locked{overflow:hidden}
 .chip{font-size:15px}
 .catlist b{font-size:17px}
 </style>
+<!-- 방문자 통계: 구글 애널리틱스(지홈 레시피북 속성). 레시피를 열면 recipe_view 이벤트(recipe_title=요리이름)를 보냄 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9KZJRXY2EK"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','G-9KZJRXY2EK');
+(function(){var last='';function rv(){var m=location.hash.match(/^#r-([a-z]+-\d+)$/);if(!m||m[1]===last){if(!m)last='';return}last=m[1];setTimeout(function(){var t=document.title.replace(/ · 지홈 레시피북$/,'');gtag('event','recipe_view',{recipe_id:m[1],recipe_title:t});},100);}addEventListener('hashchange',rv);addEventListener('load',rv);})();
+</script>
 </head>
 <body>
 
