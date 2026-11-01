@@ -12,7 +12,7 @@ window.GONGGU = [
 window.EVENTS = [
  {"type": "code", "kicker": "FOLLOW EVENT", "title": "지홈 팔로우하면 우아블 5% 할인", "code": "WAB2025F", "img": "img/ev-code.webp", "link": "https://wooahble.com/?utm_source=recipebook&utm_medium=web&utm_campaign=recipebook"},
  {"type": "product", "kicker": "우아블 자체제작", "title": "식탁매트 Flatter", "sub": "레시피 속 그 식탁매트", "img": "img/ev-flatter.webp", "link": "https://wooahble.com/shop_view/?idx=69"},
- {"type": "video", "kicker": "우아블 유튜브 최신 영상", "title": "무조건 칭찬받는 홈파티 레시피 10가지", "img": "img/ev-video-oOoec7Yl228.webp", "link": "https://www.youtube.com/watch?v=oOoec7Yl228"},
+ {"type": "video", "kicker": "우아블 유튜브 최신 영상", "title": "무조건 칭찬받는 홈파티 레시피 10가지", "img": "img/ev-video-oOoec7Yl228-full.webp", "link": "https://www.youtube.com/watch?v=oOoec7Yl228"},
  {"type": "product", "kicker": "우아블 자체제작", "title": "Gift Tissue", "sub": "식탁 위에 두는 기프트티슈", "img": "img/ev-tissue.webp", "link": "https://wooahble.com/shop_view/?idx=72"}
 ];
 window.BOOK = {"updated": "2026-11-01"};
