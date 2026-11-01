@@ -1127,7 +1127,7 @@ window.RECIPES = [
   "id": "appetizer-33",
   "cat": "appetizer",
   "title": "묵은지육회김밥",
-  "img": "",
+  "img": "img/ig-appetizer-33.webp",
   "ig": "https://www.instagram.com/reel/DfFJ3ZdTTAc/",
   "added": "2026-10-31",
   "serves": "2줄",
