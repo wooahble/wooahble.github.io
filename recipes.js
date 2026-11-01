@@ -15,7 +15,7 @@ window.EVENTS = [
  {"type": "video", "kicker": "우아블 유튜브 최신 영상", "title": "멋진 홈파티를 결정짓는 5가지, '이것'만 안해도 달라집니다", "img": "img/ev-video.webp", "link": "https://www.youtube.com/watch?v=llkkc_XyZng"},
  {"type": "product", "kicker": "우아블 자체제작", "title": "Gift Tissue", "sub": "식탁 위에 두는 기프트티슈", "img": "img/ev-tissue.webp", "link": "https://wooahble.com/shop_view/?idx=72"}
 ];
-window.BOOK = {"updated": "2026-10-29"};
+window.BOOK = {"updated": "2026-10-31"};
 window.RECIPES = [
  {
   "id": "tips-01",
@@ -1120,6 +1120,37 @@ window.RECIPES = [
    "추가로 버터 10g, 간장 1큰술 넣고 수분이 없을때까지 볶아주세요",
    "단촛물로 간을 한 밥 김에 말아 먹기좋게 잘라주세요",
    "김밥 위로 볶은 안키모, 다진쪽파 올려주면 끝"
+  ],
+  "tip": []
+ },
+ {
+  "id": "appetizer-33",
+  "cat": "appetizer",
+  "title": "묵은지육회김밥",
+  "img": "",
+  "ig": "https://www.instagram.com/reel/DfFJ3ZdTTAc/",
+  "added": "2026-10-31",
+  "serves": "2줄",
+  "ingredients": [
+   "밥 2공기(400g)",
+   "계란 4개",
+   "육회 300g",
+   "묵은지 잎 8~10장(씻어서 물기 꼭 짜기)",
+   "쪽파 10줄기",
+   "참기름 1큰술",
+   "소금 한 꼬집",
+   "## 단촛물",
+   "식초 2큰술",
+   "설탕 1큰술",
+   "소금 1/2작은술",
+   "## 육회 양념",
+   "시판 육회소스 (없으면 마늘 10개, 설탕 2큰술, 간장 0.5큰술, 맛소금 0.3큰술, 참기름 3큰술)"
+  ],
+  "steps": [
+   "밥에 단촛물 넣고 먹어보며 간 맞춰주고, 계란은 소금 한 꼬집 넣어 약불에 예쁘게 말아주세요",
+   "육회는 키친타월로 핏물 빼고 양념 2큰술 넣어 버무린 뒤 먹어보며 간 맞춰주세요",
+   "씻어둔 묵은지를 엇갈려 깔고 밥, 육회, 계란, 쪽파 길이 맞춰 올려 돌돌 ✨",
+   "참기름 마사지 후에 잘라주면 완성 📝"
   ],
   "tip": []
  },
