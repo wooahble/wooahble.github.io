@@ -296,34 +296,6 @@ window.RECIPES = [
   ]
  },
  {
-  "id": "tips-09",
-  "cat": "tips",
-  "title": "배 예쁘게 깎는 법",
-  "img": "img/ig-tips-09.webp",
-  "ig": "https://www.instagram.com/reel/Ddn8UZssLlc/",
-  "added": "2026-11-01",
-  "kind": "guide",
-  "lead": [
-   "감이나 배 같은 갈변없는 과일은 이렇게 깎아보시면 조금의 정성으로 큰 대접 받았다 느끼실꺼에요!"
-  ],
-  "points": [],
-  "items": []
- },
- {
-  "id": "tips-10",
-  "cat": "tips",
-  "title": "파스타 예쁘게 담는 법",
-  "img": "img/ig-tips-10.webp",
-  "ig": "https://www.instagram.com/reel/DcOKB9vRyjY/",
-  "added": "2026-11-01",
-  "kind": "guide",
-  "lead": [
-   "프라이팬에서 그릇으로 그냥 막 담으면 왜 이상할까 싶었는데, 2가지 방식만 익혀두니 어떤 파스타도 예쁘게 담기 가능하더라고요"
-  ],
-  "points": [],
-  "items": []
- },
- {
   "id": "appetizer-01",
   "cat": "appetizer",
   "title": "엔다이브연어샐러드",
@@ -1256,23 +1228,6 @@ window.RECIPES = [
    "구운 바게트 위로 버터, 요거트, 루꼴라, 무화과 올려주면 끝"
   ],
   "tip": []
- },
- {
-  "id": "salad-26",
-  "cat": "salad",
-  "title": "무화과 부라타 샐러드",
-  "img": "img/ig-salad-26.webp",
-  "ig": "https://www.instagram.com/reel/DdToDucTSCj/",
-  "added": "2026-11-01",
-  "serves": "",
-  "ingredients": [
-   "무화과",
-   "부라타치즈"
-  ],
-  "steps": [],
-  "tip": [
-   "무화과+부라타=❣️ 맛과 비쥬얼 다 잡았어요. 무화과 철이 끝나기 전에 꼭 한번 해보세요"
-  ]
  },
  {
   "id": "salad-27",
@@ -4261,22 +4216,6 @@ window.RECIPES = [
   ],
   "tip": [
    "빵은 물론 그릴드치킨, 오일파스타, 모닝빵에 한 조각 올려도 풍미가 확 살아요"
-  ]
- },
- {
-  "id": "dessert-08",
-  "cat": "dessert",
-  "title": "블루베리치즈토스트",
-  "img": "img/ig-dessert-08.webp",
-  "ig": "https://www.instagram.com/reel/DeosZTovNWT/",
-  "added": "2026-11-01",
-  "serves": "",
-  "ingredients": [
-   "블루베리 콩포트(번거로우면 잼으로 대체)"
-  ],
-  "steps": [],
-  "tip": [
-   "요즘 릴스에 자꾸 뜨는 블루베리치즈토스트, 유행하는 건 이유가 있네요"
   ]
  }
 ];
