@@ -4,7 +4,7 @@
    added: 추가한 날짜(YYYY-MM-DD). posted: 인스타에 올라온 날짜(YYYY-MM-DD) — 올라온 지 7일 동안 "새로 올라온 레시피"·NEW 표시. img: 없으면 "" */
 /* 공구 소식 — 인포크링크(link.inpock.co.kr/wooahble)의 "Coming up Next" 일정. brand=브랜드명(배너 제목 "지홈(우아블) X 브랜드 공동구매"), title=상품명, start/end 는 한국시간 "YYYY-MM-DDTHH:MM", img=배너 사진(없으면 ""), link=노션 알림신청(지홈) 공개 페이지 주소, 끝난 공구는 자동으로 숨겨짐 */
 window.GONGGU = [
- {"brand": "프렘", "title": "무쇠 플레이트", "start": "2026-11-12T10:00", "end": "2026-11-18T23:59", "img": "img/gb-prem.webp", "link": "https://serious-marmot-6b9.notion.site/42b9d09c3ca082e5970e01792f22a1a4"},
+ {"brand": "프렘", "title": "무쇠 플레이팅팬", "start": "2026-11-12T10:00", "end": "2026-11-18T23:59", "img": "img/gb-prem.webp", "link": "https://serious-marmot-6b9.notion.site/42b9d09c3ca082e5970e01792f22a1a4"},
  {"brand": "VBC까사", "title": "인칸토", "start": "2026-11-23T10:00", "end": "2026-11-27T23:59", "img": "img/gb-vbc-2.webp", "link": "https://serious-marmot-6b9.notion.site/1699d09c3ca083138fc6010e93724a43"},
  {"brand": "드부이에", "title": "초크팬", "start": "2026-12-02T10:00", "end": "2026-12-06T23:59", "img": "img/gb-debuyer-2.webp", "link": "https://serious-marmot-6b9.notion.site/d399d09c3ca083b3b0c881d072706a8c"}
 ];
