@@ -15,7 +15,7 @@ window.EVENTS = [
  {"type": "video", "kicker": "우아블 유튜브 최신 영상", "title": "무조건 칭찬받는 홈파티 레시피 10가지", "img": "img/ev-video-oOoec7Yl228-full.webp", "link": "https://www.youtube.com/watch?v=oOoec7Yl228"},
  {"type": "product", "kicker": "우아블 자체제작", "title": "Gift Tissue", "sub": "식탁 위에 두는 기프트티슈", "img": "img/ev-tissue.webp", "link": "https://wooahble.com/shop_view/?idx=72"}
 ];
-window.BOOK = {"updated": "2026-11-04"};
+window.BOOK = {"updated": "2026-11-05"};
 window.RECIPES = [
  {
   "id": "tips-01",
@@ -4053,6 +4053,34 @@ window.RECIPES = [
    "간장 2큰술, 쯔유 1큰술, 알룰로스 0.5큰술, 화이트발사믹 1큰술, 간 깨 1큰술, 들기름 3큰술 넣어 소스 만들어주세요",
    "우삼겹에 소스 한큰술 넣고 바싹 익혀주세요",
    "삶아 찬물에 헹군 메밀면 위로 우삼겹, 오이, 소스, 깨 올려주면 끝"
+  ],
+  "tip": []
+ },
+ {
+  "id": "meal-44",
+  "cat": "meal",
+  "title": "클램크림우동",
+  "img": "img/ig-meal-44.webp",
+  "ig": "https://www.instagram.com/reel/DfUbqkfhG3t/",
+  "added": "2026-11-05",
+  "posted": "2026-11-04",
+  "serves": "1인분",
+  "ingredients": [
+   "조개(저는 바지락 500g, 홍가리비 250g)",
+   "우동사리",
+   "생크림 200ml",
+   "화이트와인 50ml",
+   "올리브유 50ml",
+   "다진마늘 반큰술",
+   "다진파 한큰술",
+   "후추와 청양고추 취향껏"
+  ],
+  "steps": [
+   "해감한 조개를 냄비에 넣어주세요",
+   "다진마늘 반큰술, 화이트와인 50ml, 올리브유 50ml 넣고 중불에 조개가 입 벌릴때까지 끓여주세요",
+   "국물이 짜기때문에 반정도 덜어주시고 마지막에 싱거우면 국물 더 넣어 간 맞추어요",
+   "생크림 200ml 넣고 끓으면 우동도 넣어 끓여주세요",
+   "취향껏 후추와 청양고추 넣어주고 다진파로 마무리하면 끝!"
   ],
   "tip": []
  },
