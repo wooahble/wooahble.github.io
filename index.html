@@ -460,7 +460,7 @@ function evCard(o){
 function evHTML(){
   const out=[];
   GB.forEach(g=>{const live=g.s<=Date.now();
-    out.push(evCard({href:g.link||INPOCK,img:g.img,live,badge:live?'진행 중':ddText(g),kicker:`${live?'지금 공구 진행 중':'공구 오픈 예정'} · ${md(g.s)} ${new Date(g.s+9*36e5).getUTCHours()}시 ~ ${md(g.e)}`,title:g.brand?`지홈(우아블) X ${g.brand} 공동구매`:g.title,sub:g.brand?g.title:'',extra:`<span class="evcta">알림신청하러 가기 →</span>`}))});
+    out.push(evCard({href:g.link||INPOCK,img:g.img,live,badge:live?'진행 중':ddText(g),kicker:`${live?'지금 공구 진행 중':'공구 오픈 예정'} · ${md(g.s)} ${new Date(g.s+9*36e5).getUTCHours()}시 ~ ${md(g.e)}`,title:g.brand?`지홈(우아블) X ${g.brand} 공동구매`:g.title,sub:g.brand?g.title:'',extra:`<span class="evcta">${live?'지금 구매하러 가기 →':'알림신청하러 가기 →'}</span>`}))});
   EXTRA.forEach(e=>{
     if(e.type==='code')out.push(evCard({div:true,img:e.img,kicker:e.kicker||'COUPON',title:e.title,extra:`<div class="codebox"><code>${esc(e.code)}</code><button type="button" data-copy="${esc(e.code)}">복사</button><a class="go" href="${esc(e.link||SHOP)}" target="_blank" rel="noopener">쓰러 가기 →</a></div>`}));
     else if(e.type==='video')out.push(evCard({href:e.link||YT,img:e.img,play:true,kicker:e.kicker||'YOUTUBE',title:e.title,sub:'우아블 유튜브에서 보기 →'}));
