@@ -15,7 +15,7 @@ window.EVENTS = [
  {"type": "video", "kicker": "우아블 유튜브 최신 영상", "title": "무조건 칭찬받는 홈파티 레시피 10가지", "img": "img/ev-video-oOoec7Yl228-full.webp", "link": "https://www.youtube.com/watch?v=oOoec7Yl228"},
  {"type": "product", "kicker": "우아블 자체제작", "title": "Gift Tissue", "sub": "식탁 위에 두는 기프트티슈", "img": "img/ev-tissue.webp", "link": "https://wooahble.com/shop_view/?idx=72"}
 ];
-window.BOOK = {"updated": "2026-11-12"};
+window.BOOK = {"updated": "2026-11-14"};
 window.RECIPES = [
  {
   "id": "tips-01",
@@ -1230,6 +1230,30 @@ window.RECIPES = [
   "steps": [
    "그릭요거트에 무화과 또는 딸기잼 넣고 섞어주세요",
    "구운 바게트 위로 버터, 요거트, 루꼴라, 무화과 올려주면 끝"
+  ],
+  "tip": []
+ },
+ {
+  "id": "appetizer-37",
+  "cat": "appetizer",
+  "title": "까망베르 오븐구이",
+  "img": "img/ig-appetizer-37.webp",
+  "ig": "https://www.instagram.com/reel/DfqZ2PbzXVq/",
+  "added": "2026-11-14",
+  "posted": "2026-11-13",
+  "serves": "",
+  "ingredients": [
+   "일드프랑스 미니 까망베르 치즈 3개",
+   "마늘 3쪽",
+   "방울토마토 15개",
+   "바게트 1/2개",
+   "올리브유 듬뿍",
+   "파슬리 약간"
+  ],
+  "steps": [
+   "까망베르에 십자 칼집을 내고 편 썬 마늘을 꽂아주세요",
+   "접시에 종이호일 깔고 까망베르 둘레로 방울토마토, 바게트를 돌려 담아주세요",
+   "올리브유 듬뿍, 파슬리 톡톡 뿌려 180도 오븐에 15분 돌리면 완성 ✨"
   ],
   "tip": []
  },
