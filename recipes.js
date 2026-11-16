@@ -12,10 +12,10 @@ window.GONGGU = [
 window.EVENTS = [
  {"type": "code", "kicker": "FOLLOW EVENT", "title": "지홈 팔로우하면 우아블 5% 할인", "code": "WAB2025F", "img": "img/ev-code.webp", "link": "https://wooahble.com/?utm_source=recipebook&utm_medium=web&utm_campaign=recipebook"},
  {"type": "product", "kicker": "우아블 자체제작", "title": "식탁매트 Flatter", "sub": "레시피 속 그 식탁매트", "img": "img/ev-flatter.webp", "link": "https://wooahble.com/shop_view/?idx=69"},
- {"type": "video", "kicker": "우아블 유튜브 최신 영상", "title": "무조건 칭찬받는 홈파티 레시피 10가지", "img": "img/ev-video-oOoec7Yl228-full.webp", "link": "https://www.youtube.com/watch?v=oOoec7Yl228"},
+ {"type": "video", "kicker": "우아블 유튜브 최신 영상", "title": "2인가구 코스트코 추천템(활용법+홈파티 레시피)", "img": "img/ev-video-dZK1NzBFRck-full.webp", "link": "https://www.youtube.com/watch?v=dZK1NzBFRck"},
  {"type": "product", "kicker": "우아블 자체제작", "title": "Gift Tissue", "sub": "식탁 위에 두는 기프트티슈", "img": "img/ev-tissue.webp", "link": "https://wooahble.com/shop_view/?idx=72"}
 ];
-window.BOOK = {"updated": "2026-11-14"};
+window.BOOK = {"updated": "2026-11-16"};
 window.RECIPES = [
  {
   "id": "tips-01",
@@ -4105,6 +4105,31 @@ window.RECIPES = [
    "국물이 짜기때문에 반정도 덜어주시고 마지막에 싱거우면 국물 더 넣어 간 맞추어요",
    "생크림 200ml 넣고 끓으면 우동도 넣어 끓여주세요",
    "취향껏 후추와 청양고추 넣어주고 다진파로 마무리하면 끝!"
+  ],
+  "tip": []
+ },
+ {
+  "id": "meal-45",
+  "cat": "meal",
+  "title": "김치 생생우동",
+  "img": "img/ig-meal-45.webp",
+  "ig": "https://www.instagram.com/reel/DfzSa4zpJah/",
+  "added": "2026-11-16",
+  "posted": "2026-11-16",
+  "serves": "2인분",
+  "ingredients": [
+   "생생우동 2개",
+   "물 800ml",
+   "송송 썬 김치 1컵",
+   "꼬치오뎅 6개(선택)",
+   "고춧가루 1큰술",
+   "식용유 약간"
+  ],
+  "steps": [
+   "식용유에 김치, 고춧가루 넣고 약불에 볶기",
+   "물 800ml 넣고 팔팔 끓으면 꼬치오뎅 넣기",
+   "액상스프, 면 넣고 끓이기",
+   "고명 올리면 끝!"
   ],
   "tip": []
  },
