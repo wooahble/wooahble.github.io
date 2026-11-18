@@ -5,17 +5,17 @@
 /* 공구 소식 — 인포크링크(link.inpock.co.kr/wooahble)의 "Coming up Next" 일정. brand=브랜드명(배너 제목 "지홈(우아블) X 브랜드 공동구매"), title=상품명, start/end 는 한국시간 "YYYY-MM-DDTHH:MM", img=배너 사진(없으면 ""), link=노션 알림신청(지홈) 공개 페이지 주소, 끝난 공구는 자동으로 숨겨짐 */
 window.GONGGU = [
  {"brand": "프렘", "title": "무쇠 플레이팅팬", "start": "2026-11-12T10:00", "end": "2026-11-18T23:59", "img": "img/gb-prem-3.webp", "link": "https://wooahble.github.io/go/prem/"},
- {"brand": "VBC까사", "title": "인칸토", "start": "2026-11-23T10:00", "end": "2026-11-27T23:59", "img": "img/gb-vbc-2.webp", "link": "https://serious-marmot-6b9.notion.site/1699d09c3ca083138fc6010e93724a43"},
+ {"brand": "VBC까사", "title": "인칸토", "start": "2026-11-23T10:00", "end": "2026-11-27T23:59", "img": "img/gb-vbc-3.webp", "link": "https://serious-marmot-6b9.notion.site/1699d09c3ca083138fc6010e93724a43"},
  {"brand": "드부이에", "title": "초크팬", "start": "2026-12-02T10:00", "end": "2026-12-06T23:59", "img": "img/gb-debuyer-2.webp", "link": "https://serious-marmot-6b9.notion.site/d399d09c3ca083b3b0c881d072706a8c"}
 ];
 /* 이벤트 배너 — type: code(할인코드) / product(우아블 상품) / video(유튜브). 공구(GONGGU)는 이 배너들 앞에 자동으로 붙음 */
 window.EVENTS = [
  {"type": "code", "kicker": "FOLLOW EVENT", "title": "지홈 팔로우하면 우아블 5% 할인", "code": "WAB2025F", "img": "img/ev-code.webp", "link": "https://wooahble.com/?utm_source=recipebook&utm_medium=web&utm_campaign=recipebook"},
  {"type": "product", "kicker": "우아블 자체제작", "title": "식탁매트 Flatter", "sub": "레시피 속 그 식탁매트", "img": "img/ev-flatter.webp", "link": "https://wooahble.com/shop_view/?idx=69"},
- {"type": "video", "kicker": "우아블 유튜브 최신 영상", "title": "2인가구 코스트코 추천템(활용법+홈파티 레시피)", "img": "img/ev-video-dZK1NzBFRck-full.webp", "link": "https://www.youtube.com/watch?v=dZK1NzBFRck"},
+ {"type": "video", "kicker": "우아블 유튜브 최신 영상", "title": "이태리 명품 그릇이 반값?! 각종혜택, 사은품까지!💖 29CMX우아블(지홈) VBC까사 기획전(11/23~11/27)", "img": "img/ev-video-bwUIfDE2oIM-full.webp", "link": "https://www.youtube.com/watch?v=bwUIfDE2oIM"},
  {"type": "product", "kicker": "우아블 자체제작", "title": "Gift Tissue", "sub": "식탁 위에 두는 기프트티슈", "img": "img/ev-tissue.webp", "link": "https://wooahble.com/shop_view/?idx=72"}
 ];
-window.BOOK = {"updated": "2026-11-16"};
+window.BOOK = {"updated": "2026-11-18"};
 window.RECIPES = [
  {
   "id": "tips-01",
