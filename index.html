@@ -180,6 +180,9 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .evtxt h4{font-family:var(--f-display);font-weight:400;font-size:clamp(22px,6.4vw,30px);line-height:1.32;margin:0;max-width:none;letter-spacing:-.01em}
 .evcta{align-self:flex-start;margin-top:6px;background:#fff;color:#23251F;font-family:var(--f-body);font-weight:700;font-size:14px;padding:9px 16px;border-radius:999px;text-shadow:none;box-shadow:0 4px 14px rgba(0,0,0,.18)}
 .evtxt .sub{font-family:var(--f-body);font-size:14px;opacity:.92}
+.ev.ph-ev.vid .evtxt{gap:5px}
+.ev.ph-ev.vid .evtxt h4{font-size:clamp(16px,4.4vw,20px);line-height:1.38;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.ev.ph-ev.vid .evtxt .sub{font-size:13px}
 .ev.ph-ev .play{position:absolute;left:16px;top:16px;width:52px;height:52px;border-radius:50%;background:#E0463A;display:grid;place-items:center}
 .ev.ph-ev .play::after{content:"";border-left:15px solid #fff;border-top:9px solid transparent;border-bottom:9px solid transparent;margin-left:4px}
 .ev.ph-ev .codebox{display:flex;align-items:center;gap:8px;margin-top:4px;flex-wrap:wrap}
@@ -455,7 +458,8 @@ function ddText(g){if(g.s<=Date.now())return '진행 중';const d=DAY(g.s)-DAY(D
 const EXTRA=(window.EVENTS||[]);
 function evCard(o){
   const inner=`${o.img?`<img src="${esc(o.img)}" alt="" loading="lazy">`:''}<span class="shade"></span>${o.badge?`<span class="evbadge">${esc(o.badge)}</span>`:''}${o.play?'<span class="play" aria-hidden="true"></span>':''}<div class="evtxt"><div class="k">${esc(o.kicker||'')}</div><h4>${esc(o.title)}</h4>${o.sub?`<div class="sub">${esc(o.sub)}</div>`:''}${o.extra||''}</div>`;
-  return o.div?`<div class="ev ph-ev${o.live?' live':''}">${inner}</div>`:`<a class="ev ph-ev${o.live?' live':''}" href="${esc(o.href)}" target="_blank" rel="noopener">${inner}</a>`;
+  const c=`ev ph-ev${o.live?' live':''}${o.play?' vid':''}`;
+  return o.div?`<div class="${c}">${inner}</div>`:`<a class="${c}" href="${esc(o.href)}" target="_blank" rel="noopener">${inner}</a>`;
 }
 function evHTML(){
   const out=[];
