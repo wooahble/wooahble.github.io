@@ -12,7 +12,7 @@ window.GONGGU = [
 window.EVENTS = [
  {"type": "code", "kicker": "FOLLOW EVENT", "title": "지홈 팔로우하면 우아블 5% 할인", "code": "WAB2025F", "img": "img/ev-code.webp", "link": "https://wooahble.com/?utm_source=recipebook&utm_medium=web&utm_campaign=recipebook"},
  {"type": "product", "kicker": "우아블 자체제작", "title": "식탁매트 Flatter", "sub": "레시피 속 그 식탁매트", "img": "img/ev-flatter.webp", "link": "https://wooahble.com/shop_view/?idx=69"},
- {"type": "video", "kicker": "우아블 유튜브 최신 영상", "title": "이태리 명품 그릇이 반값?! 각종혜택, 사은품까지!💖 29CMX우아블(지홈) VBC까사 기획전(11/23~11/27)", "img": "img/ev-video-bwUIfDE2oIM-full.webp", "link": "https://www.youtube.com/watch?v=bwUIfDE2oIM"},
+ {"type": "video", "kicker": "우아블 유튜브 최신 영상", "title": "\"구경만 했을 뿐인데, 안목이 높아졌습니다\" 🇺🇸🇫🇷🇮🇷해외 갈 필요 없는 강남 리빙샵투어!(‼️유럽 브랜드 최대 70%세일부터, 미국 홈퍼니싱 대표브랜드까지)", "img": "img/ev-video-Y37VU5U32tw-full.webp", "link": "https://www.youtube.com/watch?v=Y37VU5U32tw"},
  {"type": "product", "kicker": "우아블 자체제작", "title": "Gift Tissue", "sub": "식탁 위에 두는 기프트티슈", "img": "img/ev-tissue.webp", "link": "https://wooahble.com/shop_view/?idx=72"}
 ];
 window.BOOK = {"updated": "2026-11-22"};
